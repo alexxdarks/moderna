@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>"Programa de Metrologia de Moderna Alimentos"<h1>
+<img src="https://estebanluna.studioideaec.com/wp-content/uploads/2019/06/moderna_logo-600x430.png">
+    <title>Protected Page</title>
+    <script type="text/javascript">
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password == "123") {
+                window.location = "https://modernaalimentos-my.sharepoint.com/:x:/g/personal/ralopez_moderna_com_ec/ERwk6rQN96lPgkzFJajey9YB2BRKK10OxP0JYNLQSyAezw?e=dVnqVe";  // Redirige al contenido si la contraseña es correcta
+            } else {
+                alert("Contraseña incorrecta");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Introduzca la contraseña para reedirigirlos al registro</h1>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Ingresar</button>
+</body>
+</html>
