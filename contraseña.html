@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Protected Page</title>
+    <script type="text/javascript">
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password == "tu_contraseña") {
+                window.location = "contenido.html";  // Redirige al contenido si la contraseña es correcta
+            } else {
+                alert("Contraseña incorrecta");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Introduzca la contraseña</h1>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Ingresar</button>
+</body>
+</html>
